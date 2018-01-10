@@ -1,5 +1,5 @@
 const Mongoose = require('mongoose');
-
+// save location
 const todos_collection = 'Todos';
 
 const Todo = Mongoose.model(todos_collection, {

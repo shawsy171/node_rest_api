@@ -1,5 +1,5 @@
 const Mongoose = require('mongoose');
-
+// save location
 const users_collection = 'Users';
 
 const User = Mongoose.model(users_collection, {
